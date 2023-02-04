@@ -1,0 +1,5 @@
+thumbs/
+logs/
+**/caches
+newadmin/node_modules/
+node_modules/

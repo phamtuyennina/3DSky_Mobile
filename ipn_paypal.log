@@ -1,0 +1,624 @@
+[2022-12-24 11:51 Asia/Ho_Chi_Minh] 244244244HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 859
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=150.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=20%3A51%3A34+Dec+23%2C+2022+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=5.73&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AVlpOpz96ozHZl00S2JWFGNmmuSmAOpiGy8K7m48Pz1PlNQyU96i0GuU&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=1KG84946RN099023V&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=5.73&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=Payment+for+order+%23AJMKP&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=150.00&ipn_track_id=c3c0fc96ab9d0
+[2022-12-24 11:51 Asia/Ho_Chi_Minh] 244244244HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sat, 24 Dec 2022 04:51:46 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-rV8o6wHtnNpXCAVRaj6JVQKafAkTuvT+/g6oWbekQGmdxmz0' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: 87a460143c77d
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Sat, 24 Dec 2022 13:37:42 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sun, 24 Dec 2023 04:51:46 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3MTg1NzUwNjMzMiIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Tue, 27 Dec 2022 04:51:46 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3AHvS9jOPzYdexO1tJvDXOHWoAWcRTY-kA.CoenYzEW6uYRZGcov77FgZqmRT%2B1%2Fll3%2BpwUehnGMxI; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1766551906%26vteXpYrS%3D1671859306%26vr%3D427907fc1850a6022c455bf8f6ad53bf%26vt%3D427907fc1850a6022c455bf8f6ad53be%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Tue, 23 Dec 2025 04:51:46 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D427907fc1850a6022c455bf8f6ad53bf%26vt%3D427907fc1850a6022c455bf8f6ad53be; Path=/; Domain=paypal.com; Expires=Tue, 23 Dec 2025 04:51:46 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2022-12-24 11:51 Asia/Ho_Chi_Minh] CCCCĐã xác minh IPN: AJMKP
+[2022-12-28 01:09 Asia/Ho_Chi_Minh] 798798798HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 860
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=193.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=10%3A09%3A29+Dec+27%2C+2022+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=7.23&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=Av.HBNl2-3wosFfQvCJvV9651qq5AhvHXFltYDtxKYnhHr3WrlCFTiwW&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=46A34080U0340520Y&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=7.23&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=Payment+for+order+%231GILFY&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=193.00&ipn_track_id=cdbd00eee9040
+[2022-12-28 01:09 Asia/Ho_Chi_Minh] 798798798HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx/1.14.0 (Ubuntu)
+Date: Tue, 27 Dec 2022 18:09:49 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-LfKEIXynqrzx7Oy1ZafAfgN01qKUv0Qk5T2eFx9xzeX5na5+' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: 7f0ff5a6e320e
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Wed, 28 Dec 2022 02:55:45 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Wed, 27 Dec 2023 18:09:49 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3MjE2NDU4OTIxMyIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Fri, 30 Dec 2022 18:09:49 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3A6oGHw_xm0kG6V15Bm6WmTRFpYXugNNSi.9ii%2F6JpdrYmOE2gjhz8F44Bf4ft%2F0cquZKYDeAaHwq8; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1766858989%26vteXpYrS%3D1672166389%26vr%3D54c6be811850a60222be9981f4d86b1a%26vt%3D54c6be811850a60222be9981f4d86b19%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Fri, 26 Dec 2025 18:09:49 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D54c6be811850a60222be9981f4d86b1a%26vt%3D54c6be811850a60222be9981f4d86b19; Path=/; Domain=paypal.com; Expires=Fri, 26 Dec 2025 18:09:49 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2022-12-28 01:09 Asia/Ho_Chi_Minh] CCCCĐã xác minh IPN: 1GILFY
+[2023-02-03 11:29 Asia/Ho_Chi_Minh] 228228228HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2023-02-03 11:29 Asia/Ho_Chi_Minh] 228228228HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 7
+Connection: close
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 03 Feb 2023 04:29:25 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-GbOgTbyeep3nWJlxh9sfRNa4rAzAwAqoCDyfxdMh2srIh43X' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"7-Ory3K5VGd+UTzTV4Xd/UXaIbp98"
+Paypal-Debug-Id: b38a7943dbe2d
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 13:15:21 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 04:29:25 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTM5ODU2NTQzNyIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 04:29:25 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3ARQJq8rCmhdVBkJIJ57KK91lVfi2HPdtt.MvKEhi5j%2F%2BCulRmEaCPrJZKifYsiFAABvZK3X67ehXA; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770092965%26vteXpYrS%3D1675400365%26vr%3D15894e2d1860a6022c76c52cf757fb86%26vt%3D15894e2d1860a6022c76c52cf757fb85%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 04:29:25 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D15894e2d1860a6022c76c52cf757fb86%26vt%3D15894e2d1860a6022c76c52cf757fb85; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 04:29:25 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+INVALID
+[2023-02-03 11:29 Asia/Ho_Chi_Minh] FriFriFriIPN không hợp lệ: cmd=_notify-validate
+[2023-02-03 11:29 Asia/Ho_Chi_Minh] 229229229HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2023-02-03 11:29 Asia/Ho_Chi_Minh] 229229229HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 7
+Connection: close
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 03 Feb 2023 04:29:58 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-kzn2Lqp9VeM9KHlr8A1piwFgPMqn3Do4PzQU5BsurojHhPBO' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"7-Ory3K5VGd+UTzTV4Xd/UXaIbp98"
+Paypal-Debug-Id: 9a5cf43a1956f
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 13:15:54 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 04:29:58 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTM5ODU5ODU5NCIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 04:29:58 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3AzvhStJquStxGy7qjtCwYJMNwHj4ln5we.S1xgqch9swnQ5pSU1gsMjQG%2F%2B%2BcbE%2FM862rhqR9wJGw; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770092998%26vteXpYrS%3D1675400398%26vr%3D1589cfb11860a60222b1aa2ef7601f2b%26vt%3D1589cfb11860a60222b1aa2ef7601f2a%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 04:29:58 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D1589cfb11860a60222b1aa2ef7601f2b%26vt%3D1589cfb11860a60222b1aa2ef7601f2a; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 04:29:58 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+INVALID
+[2023-02-03 11:29 Asia/Ho_Chi_Minh] FriFriFriIPN không hợp lệ: cmd=_notify-validate
+[2023-02-03 11:31 Asia/Ho_Chi_Minh] 229229229HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 878
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=32.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=20%3A30%3A54+Feb+02%2C+2023+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=1.61&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AXIDytixgOeXch6TWKnDx1j90GboA8sOt-CsG7.Gdfj.XTQ4iHgM4wvY&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=5NT941096N8970727&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=1.61&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=%23HCWGHW+-+Payment+for+2+PRO+and+1+months+free&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=32.00&ipn_track_id=f234056b3016e
+[2023-02-03 11:31 Asia/Ho_Chi_Minh] 229229229HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx
+Date: Fri, 03 Feb 2023 04:31:03 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-bh/66AYfpETmVveUr1Okyu0UktLenqidQqKUl8gOuVEdZ5NZ' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: 3cea64d05efe9
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 13:16:59 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 04:31:03 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTM5ODY2MzIyNyIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 04:31:03 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3AU7_yuh3iVbe---U-d217yHJyGZGJI9SR.cHWqdmwe%2BkYFsWTYXG8wIGf5jS%2FOMwt3XYktvF3OJgc; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770093063%26vteXpYrS%3D1675400463%26vr%3D158acc211860a6020602a977f7449392%26vt%3D158acc211860a6020602a977f7449391%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 04:31:03 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D158acc211860a6020602a977f7449392%26vt%3D158acc211860a6020602a977f7449391; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 04:31:03 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2023-02-03 11:31 Asia/Ho_Chi_Minh] 230230230HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 878
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=32.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=20%3A30%3A54+Feb+02%2C+2023+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=1.61&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AXIDytixgOeXch6TWKnDx1j90GboA8sOt-CsG7.Gdfj.XTQ4iHgM4wvY&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=5NT941096N8970727&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=1.61&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=%23HCWGHW+-+Payment+for+2+PRO+and+1+months+free&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=32.00&ipn_track_id=f234056b3016e
+[2023-02-03 11:31 Asia/Ho_Chi_Minh] 230230230HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx
+Date: Fri, 03 Feb 2023 04:31:58 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-vSRHxvttZOA9JzplUCUnfoqA3mUwQsejHGvUscyVcuy7+MfQ' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: bc486292e573b
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 13:17:54 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 04:31:58 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTM5ODcxODU2OCIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 04:31:58 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3AaX-eGJBmP7YVrNIqnCXm9--pgI_3f-Zv.bL6cTN1kgzKhDv1bYcw9sqV%2FPX8DA3b4fSKRVzAWG%2F0; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770093118%26vteXpYrS%3D1675400518%26vr%3D158ba44e1860a602234dd8cef7622e4d%26vt%3D158ba44e1860a602234dd8cef7622e4c%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 04:31:58 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D158ba44e1860a602234dd8cef7622e4d%26vt%3D158ba44e1860a602234dd8cef7622e4c; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 04:31:58 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2023-02-03 11:34 Asia/Ho_Chi_Minh] 232232232HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 878
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=32.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=20%3A30%3A54+Feb+02%2C+2023+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=1.61&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AXIDytixgOeXch6TWKnDx1j90GboA8sOt-CsG7.Gdfj.XTQ4iHgM4wvY&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=5NT941096N8970727&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=1.61&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=%23HCWGHW+-+Payment+for+2+PRO+and+1+months+free&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=32.00&ipn_track_id=f234056b3016e
+[2023-02-03 11:34 Asia/Ho_Chi_Minh] 232232232HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 03 Feb 2023 04:34:16 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-mOE4Mb3S+WNhNxbZyfJY0v/ESohxm+Eby3erwMB3qljyxvIz' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: 8a39b0ec98276
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 13:20:12 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 04:34:16 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTM5ODg1NjEzMSIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 04:34:16 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3AbrixUVX1SP_iX7rUa79OQ2lDuNX1M7VO.t6xM%2Bosd24yUXNOsvvR6wKZ8HCPq05YNTXRCyldlE88; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770093256%26vteXpYrS%3D1675400656%26vr%3D158dbda31860a60205f0ae2ff73e1f2f%26vt%3D158dbda31860a60205f0ae2ff73e1f2e%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 04:34:16 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D158dbda31860a60205f0ae2ff73e1f2f%26vt%3D158dbda31860a60205f0ae2ff73e1f2e; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 04:34:16 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2023-02-03 12:49 Asia/Ho_Chi_Minh] 284284284HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2023-02-03 12:49 Asia/Ho_Chi_Minh] 284284284HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 7
+Connection: close
+Server: nginx
+Date: Fri, 03 Feb 2023 05:49:25 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-9LmK90s27mM3HrYf8iM5cGwYfXcXx2R/1f0Xl81e6FRXwWsI' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"7-Ory3K5VGd+UTzTV4Xd/UXaIbp98"
+Paypal-Debug-Id: 773ebe80d0168
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 14:35:21 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 05:49:25 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTQwMzM2NTE2MCIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 05:49:25 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3AdCD0yCZga3-DCLqNdmRR1h6CCnkAUBzB.n3mgOug0gJIhfgFinlwjr1iegYGOSX%2Fo1AZg%2F1%2FEP4s; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770097765%26vteXpYrS%3D1675405165%26vr%3D15d28b171860a6022c9d2fdef7584db3%26vt%3D15d28b171860a6022c9d2fdef7584db2%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:49:25 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D15d28b171860a6022c9d2fdef7584db3%26vt%3D15d28b171860a6022c9d2fdef7584db2; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:49:25 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+INVALID
+[2023-02-03 12:49 Asia/Ho_Chi_Minh] FriFriFriIPN không hợp lệ: cmd=_notify-validate
+[2023-02-03 12:50 Asia/Ho_Chi_Minh] 285285285HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 881
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=106.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=21%3A50%3A37+Feb+02%2C+2023+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=4.19&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AI.bzJNNkUffxYc30e2Etwsx80c9ACpRpkOjMdMv.sggTpcUR-lmjAEB&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=0D8862016Y4282022&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=4.19&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=%23OV9PWG+-+Payment+for+10+PRO+and+2+months+free&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=106.00&ipn_track_id=f36279404c6d6
+[2023-02-03 12:50 Asia/Ho_Chi_Minh] 285285285HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx
+Date: Fri, 03 Feb 2023 05:50:46 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-eLHGVY0Wq6ZXqBN3ekMLDMi6C8jw74+U3RNWhU8d2QZltaAa' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: f2242bc1aa9ee
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 14:36:42 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 05:50:46 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTQwMzQ0NjI4NSIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 05:50:46 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3AOQ3cfkZKbHwo2HgJi3HXG85rTIhAcmkX.s0u5PIvFAze5o39x07liTE9oet%2FYPUN7mv9PDagbvrM; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770097846%26vteXpYrS%3D1675405246%26vr%3D15d3c7f41860a6022c8351c9f755d95a%26vt%3D15d3c7f41860a6022c8351c9f755d959%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:50:46 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D15d3c7f41860a6022c8351c9f755d95a%26vt%3D15d3c7f41860a6022c8351c9f755d959; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:50:46 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2023-02-03 12:50 Asia/Ho_Chi_Minh] CCCCĐã xác minh IPN: 
+[2023-02-03 12:51 Asia/Ho_Chi_Minh] 285285285HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 881
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=106.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=21%3A50%3A37+Feb+02%2C+2023+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=4.19&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AI.bzJNNkUffxYc30e2Etwsx80c9ACpRpkOjMdMv.sggTpcUR-lmjAEB&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=0D8862016Y4282022&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=4.19&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=%23OV9PWG+-+Payment+for+10+PRO+and+2+months+free&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=106.00&ipn_track_id=f36279404c6d6
+[2023-02-03 12:51 Asia/Ho_Chi_Minh] 285285285HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 03 Feb 2023 05:51:43 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-z8lWY2TfiIzgNcBKtqHj1+mhIjfPr/4P+3qgWGPcqCrAmapL' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: 82e768df60183
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 14:37:39 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 05:51:43 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTQwMzUwMzM0NCIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 05:51:43 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3AWaSno5Dq-aYz6nbWhQhDpYSDnqFEyjAF.Zg2wOmxMYhUhYumoBJsH%2B28kL6KQHKf2dFS9jyPMFp8; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770097903%26vteXpYrS%3D1675405303%26vr%3D15d4a6d41860a6020602a977f73fee23%26vt%3D15d4a6d41860a6020602a977f73fee22%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:51:43 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D15d4a6d41860a6020602a977f73fee23%26vt%3D15d4a6d41860a6020602a977f73fee22; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:51:43 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2023-02-03 12:51 Asia/Ho_Chi_Minh] CCCCĐã xác minh IPN: 
+[2023-02-03 12:52 Asia/Ho_Chi_Minh] 286286286HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 881
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=106.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=21%3A50%3A37+Feb+02%2C+2023+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=4.19&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AI.bzJNNkUffxYc30e2Etwsx80c9ACpRpkOjMdMv.sggTpcUR-lmjAEB&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=0D8862016Y4282022&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=4.19&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=%23OV9PWG+-+Payment+for+10+PRO+and+2+months+free&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=106.00&ipn_track_id=f36279404c6d6
+[2023-02-03 12:52 Asia/Ho_Chi_Minh] 286286286HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx
+Date: Fri, 03 Feb 2023 05:52:10 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-/i6OCeLRlWfzraUldBrzWKl7yAvbmox1mLYMTfHXu3T0FR6M' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: a7f57aa13c6f
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 14:38:06 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 05:52:10 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTQwMzUzMDI0OSIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 05:52:10 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3AAiztGPpp0TQk1JehJ4pkT7TMaW2NzX3w.XWFb1TIOR69SwLL%2Bp5XENxKKWnnnoavWO8mku6HotQs; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770097930%26vteXpYrS%3D1675405330%26vr%3D15d50fe11860a6022c62cc87f74c9e2c%26vt%3D15d50fe11860a6022c62cc87f74c9e2b%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:52:10 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D15d50fe11860a6022c62cc87f74c9e2c%26vt%3D15d50fe11860a6022c62cc87f74c9e2b; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:52:10 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2023-02-03 12:52 Asia/Ho_Chi_Minh] CCCCĐã xác minh IPN: 
+[2023-02-03 12:53 Asia/Ho_Chi_Minh] 286286286HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 881
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=106.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=21%3A50%3A37+Feb+02%2C+2023+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=4.19&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AI.bzJNNkUffxYc30e2Etwsx80c9ACpRpkOjMdMv.sggTpcUR-lmjAEB&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=0D8862016Y4282022&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=4.19&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=%23OV9PWG+-+Payment+for+10+PRO+and+2+months+free&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=106.00&ipn_track_id=f36279404c6d6
+[2023-02-03 12:53 Asia/Ho_Chi_Minh] 286286286HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx
+Date: Fri, 03 Feb 2023 05:53:10 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-cSnHhifXBe4w2mvnNbsq/SGxi/sW5VTQZSsoDoLEYIJsmxPt' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: f0d0f3068f3b7
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 14:39:06 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 05:53:10 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTQwMzU5MDM0OSIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 05:53:10 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3Aoi1nuZ1q3qzBPmbABNPOlMUWKHS2Rgxu.nLzgTrQcRslEQ%2FHJkUocBRzh6Zt9KUikMIDGU0wItDc; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770097990%26vteXpYrS%3D1675405390%26vr%3D15d5faad1860a6022c9d2fdef7581856%26vt%3D15d5faad1860a6022c9d2fdef7581855%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:53:10 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D15d5faad1860a6022c9d2fdef7581856%26vt%3D15d5faad1860a6022c9d2fdef7581855; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:53:10 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2023-02-03 12:53 Asia/Ho_Chi_Minh] CCCCĐã xác minh IPN: 
+[2023-02-03 12:53 Asia/Ho_Chi_Minh] 287287287HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 881
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=106.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=21%3A50%3A37+Feb+02%2C+2023+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=4.19&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AI.bzJNNkUffxYc30e2Etwsx80c9ACpRpkOjMdMv.sggTpcUR-lmjAEB&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=0D8862016Y4282022&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=4.19&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=%23OV9PWG+-+Payment+for+10+PRO+and+2+months+free&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=106.00&ipn_track_id=f36279404c6d6
+[2023-02-03 12:53 Asia/Ho_Chi_Minh] 287287287HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 03 Feb 2023 05:53:59 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-lJ1yHYwQIashd9gMaK1vR5lWoxgUj6svqxqZS2Jw177S7kDc' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: 59fa3f83a8e8
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 14:39:55 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 05:53:59 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTQwMzYzOTQ0NiIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 05:53:59 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3Atm5gUitBg4eqmA40kx9o8szNNVqSJd9d.4K7vEiFu0gDUhPnpae35CrEERzEkHsFBJATWtUhfyag; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770098039%26vteXpYrS%3D1675405439%26vr%3D15d6ba791860a6022c62cc87f74c83fa%26vt%3D15d6ba791860a6022c62cc87f74c83f9%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:53:59 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D15d6ba791860a6022c62cc87f74c83fa%26vt%3D15d6ba791860a6022c62cc87f74c83f9; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:53:59 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2023-02-03 12:53 Asia/Ho_Chi_Minh] CCCCĐã xác minh IPN: 
+[2023-02-03 12:54 Asia/Ho_Chi_Minh] 287287287HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 881
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=106.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=21%3A50%3A37+Feb+02%2C+2023+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=4.19&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AI.bzJNNkUffxYc30e2Etwsx80c9ACpRpkOjMdMv.sggTpcUR-lmjAEB&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=0D8862016Y4282022&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=4.19&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=%23OV9PWG+-+Payment+for+10+PRO+and+2+months+free&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=106.00&ipn_track_id=f36279404c6d6
+[2023-02-03 12:54 Asia/Ho_Chi_Minh] 287287287HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx
+Date: Fri, 03 Feb 2023 05:54:22 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-cQc1QK89GGg13ACdGp4+u272AUJrg2o2uuyQb6XtNKQ8VDXX' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: 5c99c17b68a1b
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 14:40:18 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 05:54:22 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTQwMzY2MjM2OSIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 05:54:22 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3ADIge7ikYi4SlLG8SIagsklvtce0N2z5J.BGv9gq4kBDZoSJ3wQjJ0F5hRBLKW85s%2BxYQpWuUjsQE; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770098062%26vteXpYrS%3D1675405462%26vr%3D15d714041860a6022c4955b0f742ee38%26vt%3D15d714041860a6022c4955b0f742ee37%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:54:22 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D15d714041860a6022c4955b0f742ee38%26vt%3D15d714041860a6022c4955b0f742ee37; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:54:22 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2023-02-03 12:54 Asia/Ho_Chi_Minh] CCCCĐã xác minh IPN: 
+[2023-02-03 12:55 Asia/Ho_Chi_Minh] 288288288HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 881
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=106.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=21%3A50%3A37+Feb+02%2C+2023+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=4.19&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AI.bzJNNkUffxYc30e2Etwsx80c9ACpRpkOjMdMv.sggTpcUR-lmjAEB&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=0D8862016Y4282022&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=4.19&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=%23OV9PWG+-+Payment+for+10+PRO+and+2+months+free&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=106.00&ipn_track_id=f36279404c6d6
+[2023-02-03 12:55 Asia/Ho_Chi_Minh] 288288288HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx
+Date: Fri, 03 Feb 2023 05:55:12 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-egd7TdTlvq8vY3L+RvHwyokoGrZJGvjqBFrDmCt7Sztl7rke' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: 58512265db66e
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 14:41:08 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 05:55:12 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTQwMzcxMjEyMCIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 05:55:12 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3AaNmBTJpy9-SOb5qbtzUfMmSSZ5R6DN5I.IUPlATHhGHs4K4%2BhTeIIcR1cpvO7EWKW2lVGBfue6d0; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770098112%26vteXpYrS%3D1675405512%26vr%3D15d7d65c1860a6022c4955b0f742e174%26vt%3D15d7d65c1860a6022c4955b0f742e173%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:55:12 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D15d7d65c1860a6022c4955b0f742e174%26vt%3D15d7d65c1860a6022c4955b0f742e173; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:55:12 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2023-02-03 12:55 Asia/Ho_Chi_Minh] CCCCĐã xác minh IPN: 
+[2023-02-03 12:55 Asia/Ho_Chi_Minh] 288288288HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 881
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=106.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=21%3A50%3A37+Feb+02%2C+2023+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=4.19&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AI.bzJNNkUffxYc30e2Etwsx80c9ACpRpkOjMdMv.sggTpcUR-lmjAEB&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=0D8862016Y4282022&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=4.19&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=%23OV9PWG+-+Payment+for+10+PRO+and+2+months+free&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=106.00&ipn_track_id=f36279404c6d6
+[2023-02-03 12:55 Asia/Ho_Chi_Minh] 288288288HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx
+Date: Fri, 03 Feb 2023 05:55:55 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-DNxdxfU5dFdKW1Tz54/c1zkjcdmqjHWvzzYR2MSnixWQi64Q' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: 3b946218d7407
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 14:41:51 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 05:55:55 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTQwMzc1NTQyOSIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 05:55:55 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3AGS1K-fw8sGFVRQiqTqYHL0lkFLcFAm89.0VyTpKvlYFlGNnAQ%2Fakre8XLSufMHJQ%2BRM%2B%2FtL%2B%2BMH0; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770098155%26vteXpYrS%3D1675405555%26vr%3D15d87f881860a6022c62cc87f74c67f6%26vt%3D15d87f881860a6022c62cc87f74c67f5%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:55:55 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D15d87f881860a6022c62cc87f74c67f6%26vt%3D15d87f881860a6022c62cc87f74c67f5; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:55:55 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2023-02-03 12:55 Asia/Ho_Chi_Minh] CCCCĐã xác minh IPN: 
+[2023-02-03 12:57 Asia/Ho_Chi_Minh] 289289289HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 878
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=81.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=21%3A57%3A04+Feb+02%2C+2023+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=3.32&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AS.Id2zNiYgMwH8t9VOHckDb8uNVA9I8KIgnsqpqPnsEIyI6C3JXiPxa&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=5TL14647CV4537033&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=3.32&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=%23AU1I0L+-+Payment+for+9+PRO+and+1+months+free&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=81.00&ipn_track_id=f1963908869a4
+[2023-02-03 12:57 Asia/Ho_Chi_Minh] 289289289HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx
+Date: Fri, 03 Feb 2023 05:57:12 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-MCk+0paUe+MLLXPZbuQSw75qsS9j9VS4dxjqw5sUqQopQmvz' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: 2f8d1a3e57454
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 14:43:08 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 05:57:12 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTQwMzgzMjg2MiIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 05:57:12 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3AggoqV06Coi78zfcVlSeBy2YqLNPC_z4P.gst21qk7dFi5ugTYQdz5lKTtL7nb1NzmFPSGofTFZo8; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770098232%26vteXpYrS%3D1675405632%26vr%3D15d9ae031860a6022c8351c9f7557b19%26vt%3D15d9ae031860a6022c8351c9f7557b18%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:57:12 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D15d9ae031860a6022c8351c9f7557b19%26vt%3D15d9ae031860a6022c8351c9f7557b18; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:57:12 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2023-02-03 12:57 Asia/Ho_Chi_Minh] CCCCĐã xác minh IPN: 
+[2023-02-03 12:58 Asia/Ho_Chi_Minh] 290290290HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 878
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=81.00&protection_eligibility=Eligible&payer_id=JWDJK7BBXD6XJ&payment_date=21%3A57%3A04+Feb+02%2C+2023+PST&payment_status=Completed&charset=UTF-8&first_name=John&mc_fee=3.32&notify_version=3.9&custom=&payer_status=verified&business=sb-kylvv8273778%40business.example.com&quantity=1&verify_sign=AS.Id2zNiYgMwH8t9VOHckDb8uNVA9I8KIgnsqpqPnsEIyI6C3JXiPxa&payer_email=sb-nsvqn8426108%40personal.example.com&txn_id=5TL14647CV4537033&payment_type=instant&last_name=Doe&receiver_email=sb-kylvv8273778%40business.example.com&payment_fee=3.32&shipping_discount=0.00&receiver_id=PG3T7CNVX98UQ&insurance_amount=0.00&txn_type=web_accept&item_name=%23AU1I0L+-+Payment+for+9+PRO+and+1+months+free&discount=0.00&mc_currency=USD&item_number=1&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=81.00&ipn_track_id=f1963908869a4
+[2023-02-03 12:58 Asia/Ho_Chi_Minh] 290290290HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 8
+Connection: close
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 03 Feb 2023 05:58:08 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-jDCuBMbD3+/ZJsFzKVp2CRX37mEWMJ9ps0A0xY146jN1AYQz' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"8-WXvD6WBsMSDy5c0v7r4OHopk5Ys"
+Paypal-Debug-Id: 968b293127a11
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 14:44:04 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 05:58:08 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTQwMzg4ODc1NiIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 05:58:08 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3Ac29oOnGbodphCt_ZcFqGYtJs16kT226H.DNncixMcYdSx%2B4xDgif1qA6i%2F0HjqnxokaLymdmzXNU; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770098288%26vteXpYrS%3D1675405688%26vr%3D15da885a1860a6022c9d2fdef757cfe5%26vt%3D15da885a1860a6022c9d2fdef757cfe4%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:58:08 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D15da885a1860a6022c9d2fdef757cfe5%26vt%3D15da885a1860a6022c9d2fdef757cfe4; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 05:58:08 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+VERIFIED
+[2023-02-03 12:58 Asia/Ho_Chi_Minh] CCCCĐã xác minh IPN: 
+[2023-02-03 15:35 Asia/Ho_Chi_Minh] 399399399HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com
+Accept: */*
+Connection: Close
+User-Agent: sole
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2023-02-03 15:35 Asia/Ho_Chi_Minh] 399399399HTTP response of validation request: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 7
+Connection: close
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 03 Feb 2023 08:35:21 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; style-src 'self' https://*.paypal.com https://*.paypalobjects.com 'unsafe-inline'; script-src 'nonce-SyMET6b7mYfGyKDuMMlqeSPC1TuDP8NrCCL3GNZiasRQsSFA' 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com; img-src 'self' https: data:; object-src 'none'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.paypalobjects.com https://*.paypal.com https://*.qualtrics.com; connect-src 'self' 'unsafe-inline' https://*.paypal.com https://*.paypalobjects.com https://*.qualtrics.com; form-action 'self' https://*.paypal.com; base-uri 'self' https://*.paypal.com; upgrade-insecure-requests;
+Etag: W/"7-Ory3K5VGd+UTzTV4Xd/UXaIbp98"
+Paypal-Debug-Id: 62adab5f126dc
+Set-Cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Fri, 03 Feb 2023 17:21:17 GMT; HttpOnly; Secure
+Set-Cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Sat, 03 Feb 2024 08:35:21 GMT; Secure; HttpOnly
+Set-Cookie: x-pp-s=eyJ0IjoiMTY3NTQxMzMyMTY3MCIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+Set-Cookie: tsrce=merchantnotifnodeweb; Domain=.paypal.com; Path=/; Expires=Mon, 06 Feb 2023 08:35:21 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: nsid=s%3AIHlOapG8gJWhBRYQkdTFgNd9-cVMgYOY.10qXtCsDpLJXId1lLX0SxzIkZMnaOZfuaGBuumLEtUs; Path=/; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1770107721%26vteXpYrS%3D1675415121%26vr%3D166a77b81860a6020602a977f7348977%26vt%3D166a77b81860a6020602a977f7348976%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 08:35:21 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D166a77b81860a6020602a977f7348977%26vt%3D166a77b81860a6020602a977f7348976; Path=/; Domain=paypal.com; Expires=Mon, 02 Feb 2026 08:35:21 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+INVALID
+[2023-02-03 15:35 Asia/Ho_Chi_Minh] FriFriFriIPN không hợp lệ: cmd=_notify-validate
